@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ToolbarColoredBackArrow" parent="AppTheme">
+        <item name="android:textColorSecondary">#c2d3da</item>
+    </style>
+
+    <style name="CheckBoxColor">
+        <!--波纹的颜色-->
+        <item name="android:colorControlHighlight">#f1f3f2</item>
+        <!--选中的颜色-->
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+</resources>
